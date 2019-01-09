@@ -8,7 +8,7 @@ body {
 header {
   height: 64px;
   padding: 0 24px 0 24px;
-  background-color: #D5D8DC;
+  background-color: #EAEDED;
   color: #A93226;
   display: inline-flex;
   flex-direction: row;
@@ -73,10 +73,11 @@ header nav li {
 
 .featured .banner {
   width: 60%;
+  margin-right: 32px;
 }
 
 .featured .banner img {
-  max-width: 100%;
+  width: 100%;
   height: 510px;
 }
 
@@ -87,14 +88,14 @@ header nav li {
   text-align: left;
   width: 35%;
   padding: 100px 0;
-  color: #D5D8DC;
+  color: #EAEDED;
 }
 
 .featured .headline h1 {
-  font-size: 48px;
+  font-family: "Rock Salt", cursive;
+  font-size: 44px;
   font-weight: bold;
   line-height: 1.3;
-  text-shadow: 1px 1px #515A5A;
   margin-bottom: 24px;
 }
 
@@ -102,15 +103,23 @@ header nav li {
   font-size: 25px;
   line-height: 1.3;
   margin-bottom: 30px;
+  width: 80%;
 }
 
 .featured .headline .btn {
-  background-color: #D5D8DC;
-  color: #515A5A;
-  width: 90%;
+  color: #EAEDED;
+  background-color: #CB4335;
+  width: 75%;
   font-size: 24px;
   font-weight: bold;
-  border-radius: 1px;
+  border: 1px #EAEDED solid;
+  border-radius: 3px;
   text-align: center;
   padding: 8px 0;
+}
+
+.featured .headline .btn:hover {
+  background-color: #EAEDED;
+  color: #A93226;
+  border: 1px #99A3A4 solid; 
 }
