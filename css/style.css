@@ -229,3 +229,42 @@ header nav li:hover {
 .info .sidebar .tile .info-text p:hover {
   color: #CB4335;
 }
+
+
+/** Courses **/
+
+.courses {
+  background-color: #A93226;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+}
+
+.courses h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #EAEDED;
+  text-align: center;
+  padding: 32px 0;
+}
+
+.courses .gallery {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 32px 54px;
+  justify-content: space-between;
+}
+
+.courses .gallery .tile {
+  width: 31%;
+  background-color: #EAEDED;
+  margin-bottom: 32px;
+}
+
+.courses .gallery .tile .course-img {
+  max-width: 100%;
+}
+
+.courses .gallery .tile .course-img img {
+  max-width: 100%;
+}
