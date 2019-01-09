@@ -60,6 +60,14 @@ header nav li {
   font-weight: bold;
 }
 
+header nav li:last-child {
+  color: #661E17;
+}
+
+header nav li:hover {
+  color: #E54434;
+}
+
 /** Featured **/
 .featured {
   position: relative;
@@ -107,19 +115,19 @@ header nav li {
 }
 
 .featured .headline .btn {
-  color: #EAEDED;
-  background-color: #CB4335;
+  color: #A93226;
+  background-color: #EAEDED;
   width: 75%;
   font-size: 24px;
   font-weight: bold;
-  border: 1px #EAEDED solid;
+  border: 1px #99A3A4 solid;
   border-radius: 3px;
   text-align: center;
   padding: 8px 0;
 }
 
 .featured .headline .btn:hover {
-  background-color: #EAEDED;
-  color: #A93226;
-  border: 1px #99A3A4 solid; 
+  background-color: #CB4335;
+  color: #EAEDED;
+  border: 1px #EAEDED solid;
 }
