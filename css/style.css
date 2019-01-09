@@ -4,7 +4,14 @@ body {
   max-width: 100%;
 }
 
-/** HEADER **/
+.container {
+  display: flex;
+  padding: 32px 24px;
+  position: relative;
+  top: 64px;
+}
+
+/** Header **/
 header {
   height: 64px;
   padding: 0 24px 0 24px;
@@ -70,11 +77,7 @@ header nav li:hover {
 
 /** Featured **/
 .featured {
-  position: relative;
-  top: 64px;
-  padding: 32px 24px;
   background-color: #A93226;
-  display: flex;
   flex-direction: row;
   justify-content: flex-start;
 }
@@ -130,4 +133,59 @@ header nav li:hover {
   background-color: #CB4335;
   color: #EAEDED;
   border: 1px #EAEDED solid;
+}
+
+/** Information **/
+.info {
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #EAEDED;
+}
+
+.info .story {
+  width: 60%;
+  padding-right: 24px;
+}
+
+.info .story img {
+  max-width: 100%;
+}
+
+.info .story h2 {
+  color: #212F3D;
+  font-size: 32px;
+  font-weight: bold;
+  padding: 32px 0 24px 0;
+}
+
+.info .story h4 {
+  line-height: 1.5;
+  font-size: 1.1rem;
+  width: 90%;
+}
+
+.info .story p {
+  font-size: .9rem;
+  padding-top: 24px;
+}
+
+.info .sidebar {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.info .sidebar .tile {
+  display: flex;
+  flex-direction: row;
+}
+
+.info .sidebar .tile .info-img {
+  width: 35%;
+}
+
+.info .sidebar .tile .info-img {
+  max-width: 100%;
 }
