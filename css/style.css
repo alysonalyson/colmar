@@ -141,7 +141,6 @@ header nav li:hover {
   align-items: flex-start;
   justify-content: space-between;
   background-color: #EAEDED;
-  color: #212F3D;
 }
 
 .info .story {
@@ -182,15 +181,15 @@ header nav li:hover {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  background-color: #CCD1D1;
+  background-color: #F54937;
 }
 
 .info .sidebar .tile:first-child {
-  background-color: #B2BABB;
+  background-color: #A93226;
 }
 
 .info .sidebar .tile:last-child {
-  background-color: #B2BABB;
+  background-color: #A93226;
 }
 
 .info .sidebar .tile .info-img {
@@ -223,11 +222,11 @@ header nav li:hover {
 }
 
 .info .sidebar .tile .info-text p {
-  color: #287DE5;
+  color: #EAEDED;
 }
 
 .info .sidebar .tile .info-text p:hover {
-  color: #CB4335;
+  color: #A1B63B;
 }
 
 
@@ -294,7 +293,7 @@ header nav li:hover {
   background-color: #EAEDED;
   display: flex;
   flex-flow: column;
-  justify-content: center;
+  justify-content: space-between;
 }
 
 .thesis h1 {
@@ -302,4 +301,90 @@ header nav li:hover {
   font-weight: bold;
   text-align: center;
   padding: 32px 0;
+  display: block;
+}
+
+.thesis .thesis-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.thesis .thesis-content .story {
+  width: 60%;
+}
+
+.thesis .thesis-content .story h2 {
+  font-size: 2rem;;
+  font-weight: bold;
+  padding: 32px 0 24px 0;
+}
+
+.thesis .thesis-content .story p {
+  max-width: 90%;
+}
+
+.thesis .thesis-content .story video {
+  max-width: 100%;
+  padding-right: 24px;
+}
+
+.thesis .thesis-content .sidebar {
+  width: 40%;
+  margin-left: 24px;
+  padding: 16px 24px;
+}
+
+.thesis .thesis-content .sidebar .tile {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #F54937;
+}
+
+.thesis .thesis-content .sidebar .tile:first-child {
+  background-color: #A93226;
+}
+
+.thesis .thesis-content .sidebar .tile .thesis-img {
+  width: 35%;
+  padding: 16px;
+}
+
+.thesis .thesis-content .sidebar .tile .thesis-img img {
+  width: 100%;
+  height: auto;
+}
+
+.thesis .thesis-content .sidebar .tile .thesis-text {
+  width: 65%;
+  padding-left: 16px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+
+.thesis .thesis-content .sidebar .tile .thesis-text h3 {
+  font-size: 1.3rem;
+  font-weight: bold;
+  padding-bottom: 12px;
+}
+
+.thesis .thesis-content .sidebar .tile .thesis-text p {
+  line-height: 1.3;
+  padding-bottom: 12px;
+}
+
+/** Footer **/
+footer {
+  position: relative;
+  top: 64px;
+  background-color: #A93226;
+  color: #EAEDED;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 64px;
+  padding: 24px;
 }
