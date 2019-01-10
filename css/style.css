@@ -388,3 +388,12 @@ footer {
   height: 64px;
   padding: 24px;
 }
+
+#foot-nav {
+  display: inline-flex;
+  flex-direction: row;
+}
+
+#foot-nav p {
+  padding-left: 24px;
+}
