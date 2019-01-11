@@ -2,6 +2,8 @@
 <html>
   <head>
     <title>Colmar Academy</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/responsive.css">
@@ -15,11 +17,16 @@
         <h1><span class="bold">COLMAR</span> ACADEMY</h1>
       </div>
       <nav>
-        <ul>
+        <ul class="full">
           <li>On Campus</li>
           <li>Online</li>
           <li>For Companies</li>
           <li>Sign In</li>
+        </ul>
+        <ul class="mobile">
+          <li><img src="./images/ic-on-campus.svg" alt="on campus"></li>
+          <li><img src="./images/ic-online.svg" alt="online"></li>
+          <li><img src="./images/ic-login.svg" alt="log in"></li>
         </ul>
       </nav>
     </header>
@@ -51,7 +58,8 @@
         <div class="sidebar">
           <div class="tile">
             <div class="info-img">
-              <img src="./images/info-orientation.jpg" alt="">
+              <img class="full" src="./images/info-orientation.jpg" alt="a school campus">
+              <img class="mobile" src="./images/info-orientation-mobile.jpg" alt="a school campus">
             </div>
             <div class="info-text">
               <h3>Orientation date</h3>
@@ -61,7 +69,8 @@
           </div>
           <div class="tile">
             <div class="info-img">
-              <img src="./images/info-campus.jpg" alt="">
+              <img class="full" src="./images/info-campus.jpg" alt="a room of students">
+              <img class="mobile" src="./images/info-campus-mobile.jpg" alt="a room of students">
             </div>
             <div class="info-text">
               <h3>Our Campuses</h3>
@@ -71,7 +80,8 @@
           </div>
           <div class="tile">
             <div class="info-img">
-              <img src="./images/info-guest-lecture.jpg" alt="">
+              <img class="full" src="./images/info-guest-lecture.jpg" alt="a man with glasses and a beard">
+              <img class="mobile" src="./images/info-guest-lecture-mobile.jpg" alt="a man with glasses and a beard">
             </div>
             <div class="info-text">
               <h3>Guest lecturer</h3>

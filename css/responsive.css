@@ -1,0 +1,61 @@
+@media only screen and (max-width: 500px) {
+
+  .container {
+    padding: 0;
+  }
+
+  header h1 {
+    display: none;
+  }
+
+  header .full {
+    display: none;
+  }
+
+  .featured {
+    flex-direction: column;
+  }
+
+  .featured .banner {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  .featured .banner img {
+    height: auto;
+  }
+
+  .featured .headline {
+    text-align: left;
+    width: 100%;
+    padding: 32px 16px;
+  }
+
+  .featured .headline h1 {
+    font-size: 2rem;
+  }
+
+  .featured .headline h3 {
+    font-size: 1.3rem;
+  }
+
+  .featured .headline .btn {
+    font-size: 1.2rem;
+    width: 90%;
+  }
+
+  .info .story {
+    display: none;
+  }
+
+  .info .full {
+    display: none;
+  }
+
+  .info .mobile {
+    width: 100%;
+  }
+
+
+}
