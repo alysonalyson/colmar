@@ -4,12 +4,27 @@
     padding: 0;
   }
 
-  header h1 {
+  header .full {
     display: none;
   }
 
-  header .full {
-    display: none;
+  header {
+    padding: 0;
+  }
+
+  header nav {
+    justify-content: space-between;
+    width: 100%;
+    margin: 0;
+    padding: 0 24px;
+  }
+
+  header nav li {
+    padding: 0 24px;
+  }
+
+  header nav .mobile {
+    display: inline-block;
   }
 
   .featured {
